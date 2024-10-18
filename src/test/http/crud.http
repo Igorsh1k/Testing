@@ -1,0 +1,33 @@
+### GET All
+GET http://localhost:8080/api/v1/meals/
+
+### GET 1
+GET http://localhost:8080/api/v1/meals/1
+
+### DELETE 4
+DELETE http://localhost:8080/api/v1/meals/4
+
+### Create
+POST http://localhost:8080/api/v1/meals/
+
+Content-Type: application/json
+{
+  "make": "Toyota",
+  "model": "Camry",
+  "year": 2022,
+  "color": "Black",
+  "price": 30000.00
+}
+
+#### Update
+PUT http://localhost:8080/api/v1/meals/
+Content-Type: application/json
+
+{
+  "id": "5",
+  "make": "Honda",
+  "model": "Accord",
+  "year": 2021,
+  "color": "White",
+  "price": 28000.00
+}
